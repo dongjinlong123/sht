@@ -1,0 +1,145 @@
+.banner{
+    max-height: 480px; 
+    width: 100%;
+}
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+/* product */
+.product{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.productLeft{
+    display: inline-block;
+    width: 230px;
+    height: 160px;
+    background: #0084FF;
+    position: relative;
+    float: left;
+}
+.productLeft p{
+    font-size: 24px;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.productLeft .jt{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(-45deg) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 30px;
+}
+
+.productRight{
+    float: right;
+    margin-top: 10px;
+    display: inline-block
+}
+
+.productRight span{
+    float: left;
+    margin-left: 10px;
+}
+
+/* companyIntroduction */
+.companyIntroduction{
+    padding-bottom: 50px;
+}
+.textBox {
+    margin-top: 30px;
+}
+.textBox .text{
+    width: 752px;
+    line-height: 26px;
+    text-indent: 2em;
+    text-align: justify
+}
+
+
+/* productShow */
+.productShow {
+    padding-bottom:80px;
+    padding-top: 60px;
+    background: #F5F5F5
+}
+.productShow .list{
+    margin-top: 30px;
+}
+.productShow ul {
+    width: 100%;
+}
+.productShow ul li{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.productShow ul li img{
+    display: block
+}
+.productShow ul .noMl{
+    margin-right: 0;
+}
+
+
+
+/* dongTai */
+.dongTai{
+    padding-top: 60px;
+}
+.dongTai h3{
+    font-size: 14px;
+    color: #1F1F1F;
+    line-height: 26px;
+}
+
+.dongTai p{
+    font-size: 14px;
+    color: #3D3D3D;
+    line-height: 26px;
+}
+.dongTaiLeft{
+    width: 600px;
+}
+.dongTai .text{
+    margin-top: 18px;
+}
+
+.dongTai .partner{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.fixBar{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 9999;
+}
+.fixBar .barIcon{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 1px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: #9F9F9F;
+    color: #fff;
+    border-radius: 2px;
+    opacity: .95;
+}
+.fixBar:hover {
+    opacity: .85;
+}
+.showProduct{
+   cursor: pointer;
+}
